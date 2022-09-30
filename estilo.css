@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(220, 220, 233);
+}
+#letra {
+  display: flex;
+  justify-content: center;
+
+  margin: 50px;
+  color: black;
+}
+#contenedor {
+  border: blue 5px double;
+  height: 89vh;
+  margin: 90px;
+  overflow: hidden;
+}
+#contenedor input[type="text"]:focus,
+#contenedor select[name="juegos"]:focus,
+#contenedor input[type="number"]:focus,
+a[href="./catalogo.html"]:focus,
+.contenedor:focus {
+  border: 5px solid #4fb560;
+}
+
+#contenedor input {
+  display: block;
+  width: 80%;
+  padding: 5px;
+  margin: 40px;
+  border: 1px solid #226fc1;
+  font-size: 16px;
+}
+#contenedor select {
+  display: block;
+  width: 78%;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid #226fc1;
+  font-size: 16px;
+}
+#contenedor label {
+  margin: 9px;
+  float: left;
+}
+
+#contenedor input [type="submit"] {
+  width: 200pt;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #4fb560;
+  color: #4fb560;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#a a {
+  text-decoration: none;
+  border: rgb(95, 95, 131) 3px double;
+  margin: 10px;
+  height: 6vh;
+ float: right;
+  padding: 10px;
+  border-radius: 2px;
+
+}

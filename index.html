@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro De Juegos</title>
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+
+  <body>
+    
+    <form id="contenedor">
+      <div>
+        <h1 id="letra">Registros de Juegos</h1>
+        <input
+          type="text"
+          id="nombre"
+          placeholder="digitar el nombre del Juegos"
+          required
+        />
+      </div>
+      <div>
+        <label for="juego">Tipos:</label>
+        <select name="juegos" id="juego" required>
+          <option value="">Seleccione una opción</option>
+          <option value="accion">accion</option>
+          <option value="terror">terror</option>
+          <option value="shooter">shooter</option>
+          <option value="aventura">aventura</option>
+        
+        </select>
+      </div>
+      <div>
+        <input
+          type="number"
+          step="0"
+          min="1910"
+          max="2024"
+          id="año"
+          placeholder="año en el que salio el juego"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="number"
+          step="0.111"
+          min="10.00"
+          max="100.000"
+          id="precio"
+          placeholder="precion del juego"
+          required
+        />
+      </div>
+      <div id="boto">
+        <input type="submit" value="enviar" />
+      </div>
+      
+      <div id="a">
+        <a href="./catalogo.html">ver productos registrados</a>
+      </div>
+    </form>
+
+      <script src="./proyec.js"></script>
+  </body>
+</html>
