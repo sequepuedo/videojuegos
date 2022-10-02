@@ -8,14 +8,14 @@
 }
 
 body {
-  background-color: rgb(220, 220, 233);
+  background-image: url(./fondo2.jpg);
 }
 #letra {
   display: flex;
   justify-content: center;
 
   margin: 50px;
-  color: black;
+  color:beige;
 }
 #contenedor {
   border: blue 5px double;
@@ -64,11 +64,12 @@ a[href="./catalogo.html"]:focus,
 
 #a a {
   text-decoration: none;
-  border: rgb(95, 95, 131) 3px double;
+  border: rgb(235, 235, 240) 3px double;
   margin: 10px;
   height: 6vh;
  float: right;
   padding: 10px;
   border-radius: 2px;
+  color: antiquewhite;
 
 }

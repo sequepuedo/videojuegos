@@ -1,0 +1,25 @@
+
+  body{
+
+    margin: 0;
+    padding: 100px;
+     align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(./fondo2.jpg);
+
+  }
+
+.btn-neon{
+display:contents;
+display: flex;
+justify-content: center;
+position: relative;
+display: inline-block;
+padding: 9px 9px;
+color: #fff;
+letter-spacing: 4px;
+font-size: 20px;
+text-decoration: none;
+overflow: hidden;
+transition: 0.2s;
+}

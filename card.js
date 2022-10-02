@@ -1,3 +1,5 @@
+if (localStorage.length > 0) {
+  
 let registrosJuegos=JSON.parse(localStorage.getItem("registro de juegos")) ?? [];
 let carr2=JSON.parse(localStorage.getItem("productos")) ?? [];
 lista_juegos();
@@ -54,4 +56,8 @@ function lista_juegos() {
   document.querySelector("#informacion").innerHTML = tabla_juegos;
   
 }
+} else {
 
+ alert("NO HAY PRODUCTOS REGISTRADOS....");
+
+  }

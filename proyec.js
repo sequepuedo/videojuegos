@@ -20,4 +20,5 @@ document.querySelector("#contenedor").addEventListener("submit", (e) => {
   const precio = document.querySelector("#precio").value;
   registroJuegos(nombre, tipo, año, precio);
   localStorage.setItem("registro de juegos", JSON.stringify(registrosJuegos));
+  document.queryselector("#contenedor").reset();
 });
